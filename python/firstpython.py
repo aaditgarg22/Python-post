@@ -1,1 +1,4 @@
-print('hello world')
+print("MY NAME IS AADIT GARG", "I AM 17 YEARS OLD",)
+
+print("MY NAME IS AADIT GARG")
+print ("I AM 17 YEARS OLD")
