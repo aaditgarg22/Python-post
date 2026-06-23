@@ -1,4 +1,6 @@
-print("MY NAME IS AADIT GARG", "I AM 17 YEARS OLD",)
-
-print("MY NAME IS AADIT GARG")
-print ("I AM 17 YEARS OLD")
+#consedering a rectangle with side a and b
+a=int(input("Enter the length of side a: "))
+b=int(input("Enter the length of side b: "))
+name='rectangle'
+print ("The area of the", name, "is", a*b) 
+print("The perimeter of the", name, "is", 2*(a+b))
