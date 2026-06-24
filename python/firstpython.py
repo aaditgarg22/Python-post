@@ -7,3 +7,8 @@
 
 str = input("Enter a string: ")
 print("The length of the string is: ", len(str)) 
+print (str.replace("a", "Q"))
+print (str.capitalize())
+print(str.count("garg"))
+print(str.find("d"))
+print(str.endswith("rg"))
