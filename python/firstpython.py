@@ -33,5 +33,28 @@ num=int(input('enter a number:'))
 if( num%2==0):
     print("number is even")
 else: 
-    print("number is odd")    """
+    print("number is odd")    
 
+#TAKING 3 NUMBERS FROM USER AND FINDING LARGEST AMONG THEM
+
+a=int(input("enter first number"))
+b=int(input("enter second number"))
+c=int(input("enter third number"))
+
+if (a>b and a>c): 
+    print(a ,"is the largest number")
+elif(b>a and b>c):
+    print(b ,"is the largest number")   
+else:
+    print(c ,"is the largest number")     
+
+#CREATING A CODE TO CHECK WETHER A NUMBER IS MULTIPLE OF 7,9,OR NOT
+
+number=int(input("enter your number"))
+
+if(number%7==0):
+    print("number is divisible by 7")
+if(number%9==0):
+    print("number is divisible by 9")    
+else:
+    print("number is neither divisible by 7 nor 9 ")    """
